@@ -1,0 +1,178 @@
+*{ margin:0px;
+   padding:0px; }
+ .uno{
+           float:left; 
+
+     }
+     
+
+ .dos{
+             float:right;
+
+    }
+
+ 
+
+ .cuatro{
+             float:left;
+
+    }
+
+ .cinco{ 
+
+            float:right;
+
+
+  }
+
+
+
+
+ body{
+  background:#ffffff;
+  color:#000000; 
+
+    }
+
+ #contenedor{
+                 width: 960;
+                 margin:auto; 
+                 margin-top:20px; 
+                 margin-bottom:20px;
+                 color:#000000;  
+ } 
+
+
+ header{   height:25px;
+           background:#9b0f0f;
+           color:white;
+
+       }
+
+
+       header h1{
+                   font-size:50px;                    
+                   text-align:center;
+                   line-height:60px;
+                   background:#9b0f0f;
+                   color:#ffffff;
+                   background: -webkit-radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* Safari 5.1 to 6.0 */
+                   background: -o-radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* For Opera 11.6 to 12.0 */
+                   background: -moz-radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* For Firefox 3.6 to 15 */
+                   background: radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* Standard syntax */
+       }
+       
+               h1{
+                   font-size:50px;                    
+                   text-align:center;
+                   line-height:60px;
+                   background:#9b0f0f;
+                   color:#ffffff;
+                   background: -webkit-radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* Safari 5.1 to 6.0 */
+                   background: -o-radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* For Opera 11.6 to 12.0 */
+                   background: -moz-radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* For Firefox 3.6 to 15 */
+                   background: radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* Standard syntax */
+                }
+
+  section  h2 {
+               font-size:50px;                    
+               text-align:center;
+               line-height:60px;
+               background:#9b0f0f;
+               color:#ffffff;
+
+               background: -webkit-radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* Safari 5.1 to 6.0 */
+               background: -o-radial-gradient(#9B0F0F, #6d0019,#9B0F0F); /* For Opera 11.6 to 12.0 */
+               background: -moz-radial-gradient(#9B0F0F, #6d0019,#9B0F0F); /* For Firefox 3.6 to 15 */
+               background: radial-gradient(#9B0F0F, #6d0019,#9B0F0F); /* Standard syntax */
+              } 
+
+
+             h2 {
+               font-size:50px;                    
+               text-align:center;
+               line-height:60px;
+               background:#9b0f0f;
+               color:#ffffff;
+
+               background: -webkit-radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* Safari 5.1 to 6.0 */
+               background: -o-radial-gradient(#9B0F0F, #6d0019,#9B0F0F); /* For Opera 11.6 to 12.0 */
+               background: -moz-radial-gradient(#9B0F0F, #6d0019,#9B0F0F); /* For Firefox 3.6 to 15 */
+               background: radial-gradient(#9B0F0F, #6d0019,#9B0F0F); /* Standard syntax */
+              } 
+
+
+      hr {
+          color:#9b0f0f;
+         } 
+
+         table td{font-weight:bold;}
+                     
+        .redondo{
+        -webkit-border-radius: 10em;
+        -moz-border-radius: 10em;
+         border-radius: 10em;
+         width:145px;
+         height:25px;  
+         }   
+
+
+     input:hover {
+    background-color:#D594A3;
+   }
+                                         
+
+   #degradado {
+                background: -webkit-radial-gradient(red, green, blue); /* Safari 5.1 to 6.0 */
+                background: -o-radial-gradient(red, green, blue); /* For Opera 11.6 to 12.0 */
+                background: -moz-radial-gradient(red, green, blue); /* For Firefox 3.6 to 15 */
+                background: radial-gradient(red, green, blue); /* Standard syntax */
+              }
+
+
+.boton{
+        font-size:20px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+      /*  background:#638cb5;  */
+        background:#9b0b0f; 
+        border:0px;
+        width:145px;
+        height:35px;
+        -webkit-border-radius: 3em;
+        -moz-border-radius: 3em;
+        border-radius: 3em;
+       }
+   
+
+
+
+   select option {
+           color:#9b0f0f;           
+           background-color: pink;
+           font-size:19px;
+           font-family: Cursive;     
+           
+         }
+          
+   select {      
+       color:marron; 
+       option:{
+	   color:#9b0f0f;
+       }
+   }
+   
+     /*
+     #div{   
+              overflow:scroll;
+              height:200px;
+              width:500px;
+        } 
+
+
+      #div1 table {
+                width:500px;
+                background-color:lightgray;
+                 }  
+     */

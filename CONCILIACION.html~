@@ -1,0 +1,33 @@
+<HTML>
+<HEAD>
+ <META CHARSET ="UTF-8"> 
+<CENTER><TITLE> CONCILIACION </TITLE></CENTER> 
+</HEAD>
+ <BODY>
+ 	<CENTER> 
+  <img src="margen1.jpg" border="0" width="600" height="250"
+</CENTER>
+  <H1> CONCILIACION </H1>
+
+
+<table  width="229" height="127" border="1">
+
+	 <tr><TD COLSPAN="8"  BGCOLOR= "D3CDC9"> CONCILIACION </TD></tr>
+
+ <tr><TD COLSPAN="8"  ><LABEL FOR="EMPRESA"> Empresa </LABEL > <SELECT NAME="EMPRESA" ID="NINGUNO"> </TD></tr> 
+ <tr><TD COLSPAN="8"  ><LABEL FOR="BANCO"> Banco  </LABEL > <SELECT NAME="BANCO" ID="NINGUNO"> </TD></tr>
+<tr><TD COLSPAN="8"  ><LABEL FOR="CUENTA BANCO"> Cuenta Banco  </LABEL > <SELECT NAME="CUENTA BANCO" ID="NINGUNO"> </TD></tr>
+
+<TR> <TD COLSPAN="8rf" > <b>FACTURAS</b> </TD>
+	</TR>   <TD BGCOLOR= "D3CDC9"> <INPUT TYPE="CHECKBOX"> </TD>  <TD BGCOLOR= "D3CDC9"> <b> Clave </b>   </TD><TD  BGCOLOR= "D3CDC9"><b> Nombre</b> </TD><TD BGCOLOR= "D3CDC9"> <b> Estatus </b></TD><TD BGCOLOR= "D3CDC9"><b>Fecha Emnision       </b>    </TD><TD BGCOLOR= "D3CDC9" ><b>Imp.Total </b> </TD></TR>
+ <TR>   <TD>  <INPUT TYPE="CHECKBOX">  </TD> <TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD> <TD>  </TD>  </TR>
+ <TR>    <TD> <INPUT TYPE="CHECKBOX">  </TD>  <TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD>  </TR>
+
+<TR> <TD COLSPAN="8" > <b>BANCOS</b> </TD>
+	</TR>   <TD BGCOLOR= "D3CDC9"> <INPUT TYPE="CHECKBOX"> </TD>  <TD BGCOLOR= "D3CDC9"> <b> Clave </b>   </TD><TD  BGCOLOR= "D3CDC9"><b> N.Movimiento </b> </TD><TD BGCOLOR= "D3CDC9"> <b> Numero de Cuenta  </b></TD><TD BGCOLOR= "D3CDC9"><b>Fecha de Movimiento      </b>    </TD><TD BGCOLOR= "D3CDC9" ><b>Referencia</b> </TD><TD BGCOLOR= "D3CDC9" ><b>Importe</b> </TD><TD BGCOLOR= "D3CDC9" ><b>Descripcion</b> </TD></TR>
+ <TR>   <TD>  <INPUT TYPE="CHECKBOX">  </TD> <TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD> <TD>  </TD><TD>  </TD><TD>  </TD>  </TR>
+ <TR>    <TD> <INPUT TYPE="CHECKBOX">  </TD>  <TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD>  </TR>
+ <TR> <TD Align="RIGHT"> <INPUT TYPE= "SUBMIT" VALUE= "Conciliacion"> </TD>  </TR>
+</table>
+</body>
+</html>

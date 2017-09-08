@@ -1,0 +1,40 @@
+<HTML>
+<HEAD>
+ <META CHARSET ="UTF-8"> 
+ <CENTER><TITLE> Operaciones- Depositos Bancarios  </TITLE></CENTER>
+ <link rel="stylesheet" type="text/css" href="estilos.css" media="screen" />
+</HEAD>
+<BODY> 
+
+  <CENTER> 
+  <img src="margen1.jpg" border="0" width="600" height="250"
+</CENTER>
+ 
+  <H1> Operaciones- Depositos Bancarios</H1>
+<table width="229" height="127" border="1">
+
+ <tr><TD COLSPAN="7"  BGCOLOR= "D3CDC9"> Operaciones- Depositos Bancarios </TD>
+
+	<tr><TD COLSPAN="8"  ><LABEL FOR="EMPRESA"> Empresa </LABEL > <SELECT NAME="EMPRESA" ID="NINGUNO"> </TD></tr> 
+ <tr><TD COLSPAN="8"  ><LABEL FOR="BANCO"> Banco  </LABEL > <SELECT NAME="BANCO" ID="NINGUNO"> </TD></tr>
+<tr><TD COLSPAN="8"  ><LABEL FOR="CUENTA BANCO"> Cuenta Banco  </LABEL > <SELECT NAME="CUENTA BANCO" ID="NINGUNO"> </TD></tr>
+
+<TR><TD COLSPAN="3" > Monto del Deposito </TD> <TD COLSPAN="2"> <input type="text" name="FecINI" value="" />  <TD ROWSPAN="4"><LABEL FOR="Concepto"> Concepto </LABEL > <textarea name="Concepto" cols="25" rows="5" value="" ></textarea></TD>   </TR>
+
+<TR><TD COLSPAN="3" > Numero de Factura </TD> <TD > <input type="text" name="FecINI" value="" />  </TD> </TD> </TR> 
+
+<TR><TD COLSPAN="3" > Fecha de Deposito </TD> <TD > <input type="text" name="FecINI" value="" />  </TD>   </TR>
+
+<TR><TD COLSPAN="3" > Verifica Deposito </TD> <TD> <input type="text" name="FecINI" value="" />  </TD>   </TR>
+
+<tr>
+
+<td colspan="6">
+<table align="center" width="700" height="110" border="1">
+<TR> <TD  BGCOLOR= "D3CDC9"><INPUT TYPE="CHECKBOX"> <TD BGCOLOR= "D3CDC9">  <b> Nombre </b>   </TD><TD  BGCOLOR= "D3CDC9"><b> Banco </b> </TD><TD BGCOLOR= "D3CDC9"> <b> Cuenta </b></TD><TD BGCOLOR= "D3CDC9"><b>Monto  </b>    </TD>
+<TR>   <TD >  <INPUT TYPE="CHECKBOX">  </TD> <TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD>   </TR><TR>   <TD>  <INPUT TYPE="CHECKBOX">  </TD> <TD>  </TD><TD>  </TD><TD>  </TD><TD>  </TD>   </TR>
+</table>
+</table>
+
+</BODY>
+</HTML>
