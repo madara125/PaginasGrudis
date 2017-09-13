@@ -1,0 +1,135 @@
+<html>
+   <style> 
+   
+    .entradas{
+	-webkit-border-radius: 3em;
+	-moz-border-radius: 3em;
+	 border-radius: 3em;
+	  color:#FFFFFF;   	 
+	   width:100px;
+       heigth:80px;	   
+	}
+			  
+	.redondo{
+	-webkit-border-radius: 10em;
+	-moz-border-radius: 10em;
+	 border-radius: 10em;
+     width:145px;
+     height:25px;	 
+			}			  
+			  
+    #capa2{ position:absolute; z-index:0; }
+	#capa1{ position:absolute; z-index:1; } 
+    #capa3{ position:absolute; z-index:2; }
+	
+	#capa1,#capa2,#capa3{opacity: 0.9; }
+	
+	.caja { width:105%;
+           margin:99 auto; }             
+     			  
+    input:hover {
+    background-color:#D594A3;
+   }
+   
+   
+   .boton{
+        font-size:20px;
+        font-family:Verdana,Helvetica;
+        font-weight:bold;
+        color:white;
+        background:#638cb5;
+        border:0px;
+        width:145px;
+        height:35px;
+		-webkit-border-radius: 3em;
+	-moz-border-radius: 3em;
+	 border-radius: 3em;  
+       }
+	   
+	swtich:hover{bakground-color:#fd5ea3} 
+
+
+	h1{       font-size:50px;                    
+               text-align:center;
+               line-height:60px;
+               background:#9b0f0f;
+               color:#ffffff; 
+
+               background: -webkit-radial-gradient(#9B0F0F,#6d0019,#9B0F0F); /* Safari 5.1 to 6.0 */
+               background: -o-radial-gradient(#9B0F0F, #6d0019,#9B0F0F); /* For Opera 11.6 to 12.0 */
+               background: -moz-radial-gradient(#9B0F0F, #6d0019,#9B0F0F); /* For Firefox 3.6 to 15 */
+               background: radial-gradient(#9B0F0F, #6d0019,#9B0F0F); /* Standard syntax */
+            }
+
+     
+	  
+   </style>
+
+   <script>
+            function ir_a_facia(){
+                                  document.location.href="http://localhost/sitetest/facia.html";
+                                   }     
+   </script>
+   
+    <head>	
+	<meta charset = "utf_8">	
+	<title > C L I E N T E   </title >	
+		
+	
+		<center>
+			<div id = "capa1">        	
+				<!-- <img src="texture1.jpg" border="2" width="700" height="650"> --> 
+			</div>
+				
+		</center>	   	 
+		
+	</head>
+	
+	<body>
+	
+	<nav>
+		 <center>
+	   <!--  <div id = "capa2"> -->
+				<img src="margen1.jpg" border="0" width="600" height="250">
+		<!-- </div> -->
+		 <center>
+	</nav>
+    
+	<SECTION>
+		<br><br><br>
+	    <center>
+
+		 <h1><strong>   C &nbsp;&nbsp;  l&nbsp;&nbsp;   i&nbsp;&nbsp;   e&nbsp;&nbsp;   n  &nbsp;&nbsp; t&nbsp;&nbsp;   e </strong> </h1>
+		   <div id="entradas" class= "capa2" > 
+    		<br>
+			
+			<input type = "textbox"  id = "rfc"      placeholder = "RFC"      class="redondo" >		
+	<br><br>		
+			<input type ="textbox"   id = "password" placeholder = "PASSWORD" class="redondo">    
+	<br><br>
+	        <input type ="textbox"   id = "correo"   placeholder = "CORREO"   class="redondo"> 
+	<br><br>
+	       </div>    
+			
+			<div id = "switch" >
+	
+	    
+	<input type ="submit" VALUE="ingresar" class="boton" style="background-color:#7B0F0F;" style="color:FFFFFF";  onmouseover="this.style.background='#d594a3'" onmouseout="this.style.background='#7b0f0f'"  onclick="ir_a_facia();" >
+
+    <input type ="submit" VALUE="salir" class="boton" style="background-color:#7B0F0F;" style="color:FFFFFF";  onmouseover="this.style.background='#d594a3'" onmouseout="this.style.background='#7b0f0f'"  onclick="ir_a_facia();" >
+
+
+		    
+			</div >		
+	
+		</center>
+	
+	</SECTION>
+	
+	
+	</body> 
+	  
+	   
+	
+	
+</html>
