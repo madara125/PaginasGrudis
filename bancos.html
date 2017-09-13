@@ -1,0 +1,143 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title> Importacion de Estados de Cuenta Bancarios </title>
+<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<center>
+<form><center>
+<img src="margen1.jpg" border="0" width="600" height="250">
+</center>
+
+<table border="5" width="550" height="500"   bordercolor="9b0f0f">
+<tr > 
+  <td style="color:#fff" colspan="3"><header> Importacion de Estados de Cuenta Bancarios </header>
+
+</td>
+
+</tr>
+<tr> 
+<td width="270"> .</td>
+<td><input type="submit" class="boton" value="Examinar" id="Examinar"></td>
+<td><input type="submit" class="boton"  value="Ejecutar" id="Ejecutar"></td>
+</tr>
+
+
+<tr align="center">
+<td width="135" colspan="3"> 
+
+<label for="Empresas">Empresas</label>
+<select name="Empresas" id="Ninguno">
+<option value="1">Ninguno</option>
+</select>
+</td>
+</tr>
+
+
+<tr align="center">
+<td width="135" colspan="3"> 
+
+<label for="Bancos">Bancos</label>
+<select name="Bancos" >
+<option value="1">Ninguno</option>
+</select>
+</td>
+</tr>
+
+<tr align="right">
+<td width="135" colspan="3">
+
+<label for="Estatus de los Cheques">Estatus de los Cheques</label>
+<selec name="Estatus de los cheques" >
+</select>
+</td>
+</tr>
+
+
+
+<tr align="center">
+<td width="135" colspan="1">
+
+
+<table width="240" border="1">
+<tr bgcolor="#999999"> <td colspan="1"><header> Numero de Cuenta de Cheques </header> </td></tr>
+<tr>
+<td>""</td>
+</tr>
+<tr>
+<td>""</td>
+</tr>
+<tr>
+<td>""</td>
+</tr>
+<tr>
+<td>""</td>
+</tr>
+<tr>
+<td>""</td>
+</tr>
+<tr>
+<td>""</td>
+</tr>
+</td></table>
+
+
+</td>
+<td width="135" colspan="2">
+<select name="Select" size="7">
+<option value="1">4->Recibido</option>
+<option value="2">5->Desembolso</option>
+<option value="3">6->Liberado</option>
+<option value="4">7->Pagado</option>
+<option value="5">8->Conciliado</option>
+<option value="6">9->Extraviado</option>
+</select>
+</td>
+</tr>
+
+<tr>
+<td width="210" colspan="4"> 
+
+
+<table border="3">
+
+<tr>
+<td colspan="4"><label for="Archivo a Conciliar">Archivo a Conciliar</label></td>
+<td><input name="Archivo a Conciliar"  class="redondo"></input></td>
+<td><input type="submit" value="Buscar" id="Buscar"   class="boton" class="redondo" ></td>
+<td>.</td>
+</tr>
+
+
+<tr>
+<td><label for="Fecha Inicial">Fecha Inicial</label></td>
+<td colspan="4"><input name="Fecha Inicial"  class="redondo"></input></td>
+<td><label for="Fecha Final">Fecha Final</label></td>
+<td><input name="Fecha Final"  class="redondo"></input></td>
+</tr>
+
+
+
+
+
+<tr>
+<td colspan="5"><input type="checkbox"  id="Es Cuenta de Depositos Referenciados"></input></td>
+<td align="left" colspan="2"><label for="">Es Cuenta de Depositos Referenciados</label></td>
+
+</tr>
+
+
+</table>
+
+</td></tr>
+
+
+
+</table>
+
+
+</form>
+<center>
+</body>
+</html>
